@@ -1,0 +1,55 @@
+body {
+    background-color:beige;
+
+}
+
+.img-landingpage{
+    height: 35%;
+    
+    
+    
+}
+
+.landingpage{
+    
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    
+
+}
+
+.btn-content{
+    text-align:center;
+    background-color:ghostwhite;
+
+
+}
+
+.btn-content2{
+    text-align:center;
+    background-color:ghostwhite;
+
+
+}
+
+.btn-content3{
+    text-align:center;
+    background-color:ghostwhite;
+
+
+}
+
+
+.btn-content4{
+    text-align:center;
+    background-color:ghostwhite;
+
+
+}
+    
+
+
+
+
+
