@@ -1,53 +1,94 @@
-body {
-    background-color:beige;
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.header{
+    height: 45vh;
+    display:flex;
+    justify-content: space-around;
+    color:black;
+    
+}
+
+.logo{
+    height:80%;
+    
+   
+}
+
+.list-nav{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    position:relative;
+    top: 20px;
+    
+    
 
 }
 
-.img-landingpage{
-    height: 35%;
-    
-    
-    
+.item-nav {
+    margin: 0px 20px;
+    gap: 70px;
+    font-family:'Mouse Memoirs', sans-serif;
+   
+
 }
 
-.landingpage{
-    
+.section-inicio {
+    display: flex;
+    justify-content:right;
     align-items: center;
+    
+
+}
+
+.logo-drink {
+    height: 80%;
+    width: 50%;
+    float:right;
+    
+    
+    
+    
+
+}
+
+.parrafo {
+   display: flex;
+   justify-content: left;
+   text-align: justify;
+   font-family: 'Mouse Memoirs', sans-serif;
+   
+
+
+    
+}
+
+.titulo{
     display:flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.space{
+    text-align: center;
+}
+
+.fuente{
+    font-family: 'Mouse Memoirs', sans-serif;
     
-
-}
-
-.btn-content{
-    text-align:center;
-    background-color:ghostwhite;
-
-
-}
-
-.btn-content2{
-    text-align:center;
-    background-color:ghostwhite;
-
-
-}
-
-.btn-content3{
-    text-align:center;
-    background-color:ghostwhite;
-
-
 }
 
 
-.btn-content4{
-    text-align:center;
-    background-color:ghostwhite;
 
-
-}
-    
 
 
 
