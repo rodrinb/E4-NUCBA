@@ -1,6 +1,9 @@
 *{
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
+    
+    
 }
 
 a {
@@ -13,6 +16,7 @@ a {
     display:flex;
     justify-content: space-around;
     color:black;
+   
     
 }
 
@@ -86,6 +90,111 @@ a {
     font-family: 'Mouse Memoirs', sans-serif;
     
 }
+
+.container{
+   width:100%;
+    display:flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    flex-direction: row;
+    
+    
+    
+}
+
+
+.card{
+    width: 200px; 
+    margin: 20px;;
+    border-radius: 6px;
+    overflow:hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
+    font-family:'Mouse Memoirs', sans-serif; 
+    
+
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.card img{
+    width:100%;
+    height: 200px;
+}
+
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+    
+}
+
+
+.card .contenido p{
+    line-height:1.5;
+    color:black;
+    font-size:'Mouse Memoirs', sans-serif;
+    
+}
+
+
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid #2fb4cc; 
+    border-radius: 4px;
+    transition: all 400ms ease;
+
+}
+
+
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color:#fff;
+}
+
+
+.cards{
+    display: flex;
+    justify-content:center;
+    padding-top: 
+    
+    
+    
+}
+
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:'Mouse Memoirs', sans-serif; 
+    font-size: 300%;
+}
+
+
+.pie-pagina{
+    padding: 45px 0px;
+    width:100%;
+    max-width: 1300px;
+    margin: auto;
+    font-family:'Mouse Memoirs', sans-serif;
+    font-size: 18px;
+
+    }
+    
+
+
+
+
+
 
 
 
